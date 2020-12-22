@@ -22,6 +22,6 @@ public class BorderRaport {
     @ApiModelProperty(notes = "exitTime - entryTime w sekundach", example = "2345")
     private LocalDate countryTime;
     @ApiModelProperty(notes = "Informacje o zakresach czasu w ktorych brakuje danych")
-    private List<NoDataBorderRaport> borderRaportNoDate;
+    private List<NoDataEntryTime> borderRaportNoDate;
 
 }

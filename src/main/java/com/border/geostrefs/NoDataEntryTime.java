@@ -6,7 +6,7 @@ import lombok.Data;
 import java.time.LocalDate;
 
 @Data
-public class NoDataBorderRaport {
+public class NoDataEntryTime {
     @ApiModelProperty(notes = "Brak danych data poczatkowa", example = "timedate")
     private LocalDate entryTime;
     @ApiModelProperty(notes = "Brak danych data koncowa", example = "timedate")
