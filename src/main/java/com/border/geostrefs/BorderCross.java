@@ -13,7 +13,7 @@ public class BorderCross {
     private String from;
     @ApiModelProperty(notes = "Kraj do ktorego samochod wjechal", example = "DE")
     private String to;
-    @ApiModelProperty(notes = "Kierowca", example = "Stig")
+    @ApiModelProperty(notes = "Licznik kilometrow", example = "12345")
     private Long odometer;
     @ApiModelProperty(notes = "Kierowca", example = "Stig")
     private String driver;
